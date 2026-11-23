@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720"
+     data-pptx-page-role="content"
+     font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="p08-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">07 · 专机扩展：分段补偿与机床自维护</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">分段精度纠偏与自维护功能，守住批量一致性</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5"/>
+  </g>
+
+  <g id="p08-segcomp" data-pptx-bounds="48 140 648 164">
+    <rect x="48" y="140" width="648" height="164" rx="10" fill="#F2F5F8" stroke="#00879E" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/adjustments-alt" x="66" y="156" width="24" height="24" stroke="#00879E"/>
+    <text x="98" y="175" font-size="22" font-weight="bold" fill="#0F3D4C">5. 分段补偿中径 / 导程（长螺纹局部纠偏）</text>
+    <text x="66" y="210" font-size="16" fill="#16202A">
+      <tspan x="66" dy="0">• 按检测报告从右端起设置分段数，逐段录入终点 Z、中径(半径)与导程补偿量</tspan>
+      <tspan x="66" dy="26">• 仅在自动磨削时生效，手动对刀时不生效</tspan>
+      <tspan x="66" dy="28" font-weight="bold" fill="#D97706">互斥边界：同时开启反向孔倒角、变径磨削或变螺距时，不执行分段补偿</tspan>
+    </text>
+  </g>
+
+  <g id="p08-dryrun" data-pptx-bounds="48 320 648 136">
+    <rect x="48" y="320" width="648" height="136" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/refresh" x="66" y="336" width="24" height="24" stroke="#0F3D4C"/>
+    <text x="98" y="355" font-size="22" font-weight="bold" fill="#0F3D4C">6. 空运行热机（消除冷机温漂）</text>
+    <text x="66" y="390" font-size="16" fill="#16202A">
+      <tspan x="66" dy="0">• 设定 Z/X 轴安全往复范围、砂轮转速与运行速度（确认不碰工件与夹具）</tspan>
+      <tspan x="66" dy="26">• 打开使能后按循环启动优先空载热机；<tspan font-weight="bold" fill="#D97706">热机结束后务必关闭使能</tspan></tspan>
+    </text>
+  </g>
+
+  <g id="p08-fixture-diy" data-pptx-bounds="48 472 648 186">
+    <rect x="48" y="472" width="316" height="186" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <use data-icon="tabler-outline/tool" x="66" y="488" width="22" height="22" stroke="#0F3D4C"/>
+    <text x="96" y="506" font-size="20" font-weight="bold" fill="#0F3D4C">7. 自磨夹具</text>
+    <text x="66" y="540" font-size="16" fill="#16202A">
+      <tspan x="66" dy="0">• 设定夹具左右端与接触位置</tspan>
+      <tspan x="66" dy="26">• 独立设次数、进刀量与修整</tspan>
+      <tspan x="66" dy="26">• 保障装夹基准同心度</tspan>
+      <tspan x="66" dy="26" fill="#D97706" font-weight="bold">• 磨完务必关闭自磨夹具开关</tspan>
+    </text>
+
+    <rect x="380" y="472" width="316" height="186" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <use data-icon="tabler-outline/cpu" x="398" y="488" width="22" height="22" stroke="#00879E"/>
+    <text x="428" y="506" font-size="20" font-weight="bold" fill="#0F3D4C">8. DIY 工艺模式</text>
+    <text x="398" y="540" font-size="16" fill="#16202A">
+      <tspan x="398" dy="0">• 支持用户自定义 DIY 程序</tspan>
+      <tspan x="398" dy="26">• 满足非标特种内螺纹工序</tspan>
+      <tspan x="398" dy="26">• 启用 DIY 时标准工艺表只读</tspan>
+      <tspan x="398" dy="26" fill="#52606D">• 防止误改标准参数</tspan>
+    </text>
+  </g>
+
+  <g id="p08-screen-seg" data-pptx-bounds="716 140 516 250">
+    <rect x="716" y="140" width="516" height="250" rx="12" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5"/>
+    <image href="../images/image_006_2.png" x="730" y="152" width="300" height="225" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1044" y="190" font-size="20" font-weight="bold" fill="#0F3D4C">分段补偿界面</text>
+    <text x="1044" y="228" font-size="16" fill="#16202A">
+      <tspan x="1044" dy="0">• 从右端起逐段录入</tspan>
+      <tspan x="1044" dy="28">• 独立补偿中径与导程</tspan>
+      <tspan x="1044" dy="28">• 仅自动磨削中生效</tspan>
+    </text>
+  </g>
+
+  <g id="p08-screen-dry" data-pptx-bounds="716 408 516 250">
+    <rect x="716" y="408" width="516" height="250" rx="12" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5"/>
+    <image href="../images/image_007_2.png" x="730" y="420" width="300" height="225" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1044" y="458" font-size="20" font-weight="bold" fill="#0F3D4C">空运行热机界面</text>
+    <text x="1044" y="496" font-size="16" fill="#16202A">
+      <tspan x="1044" dy="0">• 设 Z/X 往复边界</tspan>
+      <tspan x="1044" dy="28">• 优先执行空载热机</tspan>
+      <tspan x="1044" dy="28">• 完后须关闭使能</tspan>
+    </text>
+  </g>
+
+  <g id="p08-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" font-size="15" fill="#52606D">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">08 / 10</text>
+  </g>
+</svg>

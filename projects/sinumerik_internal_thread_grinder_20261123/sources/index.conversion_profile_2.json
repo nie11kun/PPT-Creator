@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "html",
+  "source": {
+    "path": "C:/Users/Marco Nie/Development/WorkProgram/GeneratedProgram/TEST(#1-...)/System-CF-Card/oem/sinumerik/hmi/hlp/chs/UserGuide/index.html",
+    "name": "index.html",
+    "suffix": ".html",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 2250
+  },
+  "outputs": {
+    "markdown": "index.md",
+    "asset_dir": "",
+    "image_manifest": "",
+    "image_count": 0
+  },
+  "markdown": {
+    "line_count": 32,
+    "char_count": 594,
+    "heading_count": 3,
+    "table_count": 0,
+    "image_ref_count": 0,
+    "link_count": 19
+  },
+  "warnings": []
+}

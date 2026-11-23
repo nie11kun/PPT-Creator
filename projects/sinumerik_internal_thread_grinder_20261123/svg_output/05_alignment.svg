@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="p05-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">04 · 加工准备：精确对刀</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">双路径精准对刀：手动微调配合六大自动测量模式</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5" />
+  </g>
+
+  <g id="p05-manual" data-pptx-bounds="48 140 504 192">
+    <rect x="48" y="140" width="504" height="192" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <use data-icon="tabler-outline/crosshair" x="66" y="156" width="24" height="24" stroke="#0F3D4C" />
+    <text x="98" y="175" font-size="22" font-weight="bold" fill="#0F3D4C">手动对刀（算起始角.C 与初始接触.X）</text>
+    <text x="66" y="210" font-size="16" fill="#16202A">
+      <tspan x="66" dy="0">• 双模式：支持同步插补对刀与静止对刀</tspan>
+      <tspan x="66" dy="28">• 操作：DRF 手轮落入螺纹槽后按「退刀」记录退出</tspan>
+      <tspan x="66" dy="28">• 批量一致：首件存初始接触.X；非首件仅更新起始角</tspan>
+      <tspan x="66" dy="28" fill="#52606D">需先设定工件中心.X、左右端.Z 与安全退刀位置</tspan>
+    </text>
+  </g>
+
+  <g id="p05-auto" data-pptx-bounds="572 140 660 192">
+    <rect x="572" y="140" width="660" height="192" rx="10" fill="#FFFFFF" stroke="#00879E" stroke-width="1.5" />
+    <use data-icon="tabler-outline/target-arrow" x="590" y="156" width="24" height="24" stroke="#00879E" />
+    <text x="622" y="175" font-size="22" font-weight="bold" fill="#0F3D4C">自动对刀（两类机构 · 标定测量水平距.Z）</text>
+    <text x="590" y="210" font-size="16" fill="#16202A">
+      <tspan x="590" dy="0"><tspan font-weight="bold" fill="#00879E">• 内滚道(接近开关)：</tspan>探槽两侧牙侧取中点；碰牙顶平移重试(最多5次)</tspan>
+      <tspan x="590" dy="28"><tspan font-weight="bold" fill="#00879E">• 反向孔(测头 4 模式)：</tspan>圆形/腰形孔(常规/只测C) · 右端台阶 · 右端孔 · 外圆端反</tspan>
+      <tspan x="590" dy="28">• 复测与防撞：先快后慢复测；右端超阈值(默认0.05mm)报警停机</tspan>
+      <tspan x="590" dy="28" fill="#52606D">偏刀可直接改「对刀结果调整」叠加修正，无需重新标定机构</tspan>
+    </text>
+  </g>
+
+  <g id="p05-screen-raceway" data-pptx-bounds="48 350 576 308">
+    <rect x="48" y="350" width="576" height="308" rx="12" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <image href="../images/image_001_13.png" x="62" y="368" width="356" height="267" preserveAspectRatio="xMidYMid meet" />
+    <text x="434" y="404" font-size="20" font-weight="bold" fill="#0F3D4C">内滚道对刀界面</text>
+    <text x="434" y="442" font-size="16" fill="#16202A">
+      <tspan x="434" dy="0">• 左上实时信号指示</tspan>
+      <tspan x="434" dy="30">• 底部显示 X/Z/C</tspan>
+      <tspan x="434" dy="30">• 设测量位.Z 与 .X</tspan>
+      <tspan x="434" dy="30">• 碰壁前退回安全位</tspan>
+      <tspan x="434" dy="30" fill="#00879E" font-weight="bold">• 可配置测后直磨</tspan>
+    </text>
+  </g>
+
+  <g id="p05-screen-hole" data-pptx-bounds="656 350 576 308">
+    <rect x="656" y="350" width="576" height="308" rx="12" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <image href="../images/image_002_9.png" x="670" y="368" width="356" height="267" preserveAspectRatio="xMidYMid meet" />
+    <text x="1042" y="404" font-size="20" font-weight="bold" fill="#0F3D4C">反向孔对刀界面</text>
+    <text x="1042" y="442" font-size="16" fill="#16202A">
+      <tspan x="1042" dy="0">• 测头中心位与半径</tspan>
+      <tspan x="1042" dy="30">• 支持孔周步距探测</tspan>
+      <tspan x="1042" dy="30">• 右端面自动校验</tspan>
+      <tspan x="1042" dy="30">• 支持腰形孔展开角</tspan>
+      <tspan x="1042" dy="30" fill="#52606D">• 误差直接写偏刀</tspan>
+    </text>
+  </g>
+
+  <g id="p05-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" fill="#52606D" font-size="15">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">05 / 10</text>
+  </g>
+</svg>

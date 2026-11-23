@@ -1,0 +1,36 @@
+{
+  "stage": "stage1",
+  "lang": "zh",
+  "primary_language": "zh-CN",
+  "template_options": {
+    "schema_version": 1,
+    "phase": "template",
+    "lang": "zh",
+    "default_mode": "free_design",
+    "explicit_workspace_roots": []
+  },
+  "recommend": {
+    "canvas": "ppt169"
+  },
+  "audience": {
+    "value": "数控机床客户、工艺工程师、现场操作人员及售前/售后技术支持团队，需要快速了解该数控内螺纹磨床 HMI 系统的核心功能与操作框架"
+  },
+  "communication_intent": {
+    "value": "以 10 页篇幅系统介绍数控内螺纹磨床（型号 TEST，软件版本 3.29.0）HMI 软件的界面导航、核心加工能力（砂轮修整、自动/手动对刀、多级工艺磨削、8 项磨削扩展功能）与运维保障体系，帮助受众快速建立完整产品认知"
+  },
+  "audience_outcome": {
+    "value": "受众能在短时间内看懂机床 HMI 的界面架构与核心工艺亮点，认可系统的专业性与易用性，并明确日常加工操作与运维管理的关键入口"
+  },
+  "core_message": {
+    "value": "基于 SINUMERIK 平台的数控内螺纹磨床 HMI 3.29.0，将“修整—对刀—磨削—扩展工艺—统计运维”集成为直观统一的操作体系，兼顾高精度内螺纹加工与高效现场运维"
+  },
+  "delivery_context": {
+    "value": "主要为有主讲人的产品介绍、客户培训或技术交流演示（10 页，约 10–15 分钟）；次要为会后可供独立翻阅的产品功能概览材料"
+  },
+  "artifact_afterlife": {
+    "value": "作为产品对外宣讲、新操作员/客户上机培训以及内部技术交接的复用介绍材料"
+  },
+  "content_divergence": {
+    "value": ""
+  }
+}

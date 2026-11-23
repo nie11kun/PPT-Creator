@@ -1,0 +1,28 @@
+{
+  "schema": "ppt-master.source_to_md.profile.v1",
+  "converter": "doc_to_md.py",
+  "conversion_type": "html",
+  "source": {
+    "path": "C:/Users/Marco Nie/Development/WorkProgram/GeneratedProgram/TEST(#1-...)/System-CF-Card/oem/sinumerik/hmi/hlp/chs/UserGuide/section_30.html",
+    "name": "section_30.html",
+    "suffix": ".html",
+    "kind": "file",
+    "exists": true,
+    "size_bytes": 5019
+  },
+  "outputs": {
+    "markdown": "section_30.md",
+    "asset_dir": "section_30_files",
+    "image_manifest": "section_30_files/image_manifest.json",
+    "image_count": 1
+  },
+  "markdown": {
+    "line_count": 69,
+    "char_count": 1092,
+    "heading_count": 0,
+    "table_count": 1,
+    "image_ref_count": 1,
+    "link_count": 2
+  },
+  "warnings": []
+}

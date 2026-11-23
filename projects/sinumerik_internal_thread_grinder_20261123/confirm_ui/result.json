@@ -1,0 +1,68 @@
+{
+  "primary_language": "zh-CN",
+  "canvas": "ppt169",
+  "audience": "数控机床客户、工艺工程师、现场操作人员及售前/售后技术支持团队，需要快速了解该数控内螺纹磨床 HMI 系统的核心功能与操作框架",
+  "communication_intent": "以 10 页篇幅系统介绍数控内螺纹磨床（型号 TEST，软件版本 3.29.0）HMI 软件的界面导航、核心加工能力（砂轮修整、自动/手动对刀、多级工艺磨削、8 项磨削扩展功能）与运维保障体系，帮助受众快速建立完整产品认知",
+  "audience_outcome": "受众能在短时间内看懂机床 HMI 的界面架构与核心工艺亮点，认可系统的专业性与易用性，并明确日常加工操作与运维管理的关键入口",
+  "core_message": "基于 SINUMERIK 平台的数控内螺纹磨床 HMI 3.29.0，将“修整—对刀—磨削—扩展工艺—统计运维”集成为直观统一的操作体系，兼顾高精度内螺纹加工与高效现场运维",
+  "delivery_context": "主要为有主讲人的产品介绍、客户培训或技术交流演示（10 页，约 10–15 分钟）；次要为会后可供独立翻阅的产品功能概览材料",
+  "artifact_afterlife": "作为产品对外宣讲、新操作员/客户上机培训以及内部技术交接的复用介绍材料",
+  "content_divergence": "",
+  "delivery_purpose": "balanced",
+  "page_count": "10",
+  "mode": "custom",
+  "mode_behavior": "以 instructional 作为核心结构基底，按照“机床概览与导航 → 砂轮修整与滚轮齿型 → 对刀标定 → 多级工艺磨削 → 8 项扩展功能 → 运维统计与配置安全”的加工准备与执行顺序递进展开，同类界面与并列模式采用对称结构方便对照，每页用明确的功能/工序结论作标题。",
+  "visual_style": "soft-rounded",
+  "color": {
+    "name": "工业精密青",
+    "palette": {
+      "background": "#FFFFFF",
+      "secondary_bg": "#F2F5F8",
+      "primary": "#0F3D4C",
+      "accent": "#00879E",
+      "secondary_accent": "#D97706",
+      "body_text": "#16202A"
+    }
+  },
+  "icons": "tabler-outline",
+  "typography": {
+    "name": "黑体 + 微软雅黑 + Arial",
+    "heading": {
+      "css": "sans-serif",
+      "english": "Arial",
+      "primary": "SimHei",
+      "sample_primary": "",
+      "sample_english": ""
+    },
+    "body": {
+      "css": "sans-serif",
+      "english": "Arial",
+      "primary": "Microsoft YaHei",
+      "sample_primary": "",
+      "sample_english": ""
+    },
+    "body_size": 24,
+    "sizes": {
+      "title": 42,
+      "subtitle": 32,
+      "annotation": 18
+    },
+    "note": "",
+    "body_size_unit": "px"
+  },
+  "image_usage": [
+    "provided"
+  ],
+  "image_notes": "优先使用手册自带的 800×600 原生 HMI 界面截图（欢迎页、磨削主界面、工艺表、修整/滚轮/齿型、6 种自动对刀、统计与寿命、备份恢复等）作为真实系统展示，禁止裁剪截图关键标签；配合原生 SVG 工艺流程与参数对比图表。",
+  "proactive_speaker_notes": true,
+  "proactive_custom_animations": false,
+  "proactive_narration_audio": false,
+  "generation_mode": "continuous",
+  "refine_spec": false,
+  "design_spec_depth": "brief",
+  "stage": "final",
+  "status": "confirmed",
+  "stage1_sha256": "634d8524b166f31ad9dcf5322bf39f86ee6b673a4cab2180fc06a4c282193085",
+  "selection_sha256": "d44de3e7f16df18cafb394db27cd03a565032798eea3ef07c0ee370321395f6a",
+  "confirmed_at": "2026-11-23T12:00:19"
+}

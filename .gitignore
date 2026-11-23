@@ -1,0 +1,62 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# PPT Master runtime, cache, backup, and derived preview artifacts
+projects/*/live_preview/
+projects/*/backup/
+projects/*/svg_final/
+projects/*/.preview/
+projects/*/.review/
+projects/*/.confirm_ui.lock
+projects/*/confirm_ui/server.log
+projects/*/validation/workflow.log
+.live_edits.jsonl
+.playwright-mcp/
+
+# Optional: uncomment to ignore exported binary PPTX files
+# projects/*/exports/*.pptx
+
+# Office temporary lock files
+~$*.pptx
+~$*.pptm
+~$*.docx
+~$*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Cache, locks & temporary files
+.cache/
+*.lock
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Operating System
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# IDE / Editors
+.vscode/
+.idea/
+*.code-workspace

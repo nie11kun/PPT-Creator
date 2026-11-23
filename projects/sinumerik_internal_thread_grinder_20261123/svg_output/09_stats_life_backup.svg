@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720"
+     data-pptx-page-role="content"
+     font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="p09-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">08 · 运维保障：统计、寿命与备份</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">数字化生产追溯与防呆备份，保障连续稳定运行</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5"/>
+  </g>
+
+  <g id="p09-screen-stats" data-pptx-bounds="48 140 576 286">
+    <rect x="48" y="140" width="576" height="286" rx="12" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <image href="../images/image_001_16.png" x="62" y="152" width="348" height="261" preserveAspectRatio="xMidYMid meet"/>
+    <text x="426" y="188" font-size="20" font-weight="bold" fill="#0F3D4C">加工统计界面</text>
+    <text x="426" y="226" font-size="16" fill="#16202A">
+      <tspan x="426" dy="0">• 按砂轮序号建档</tspan>
+      <tspan x="426" dy="30">• 仅计批量生产件数</tspan>
+      <tspan x="426" dy="30">• 修整轮次数/量双计</tspan>
+      <tspan x="426" dy="30">• 超极限时提示更换</tspan>
+      <tspan x="426" dy="30" fill="#00879E" font-weight="bold">• 钥匙开关 3 档权限</tspan>
+    </text>
+  </g>
+
+  <g id="p09-screen-backup" data-pptx-bounds="656 140 576 286">
+    <rect x="656" y="140" width="576" height="286" rx="12" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <image href="../images/image_001_11.png" x="670" y="152" width="348" height="261" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1034" y="188" font-size="20" font-weight="bold" fill="#0F3D4C">参数备份恢复界面</text>
+    <text x="1034" y="226" font-size="16" fill="#16202A">
+      <tspan x="1034" dy="0">• 加工/备份/恢复模式</tspan>
+      <tspan x="1034" dy="30">• 支持全量或变量表</tspan>
+      <tspan x="1034" dy="30">• 后部 USB //DEV_3</tspan>
+      <tspan x="1034" dy="30">• 需用户口令进入</tspan>
+      <tspan x="1034" dy="30" fill="#D97706" font-weight="bold">• 完后必改回「加工」</tspan>
+    </text>
+  </g>
+
+  <g id="p09-card-stats" data-pptx-bounds="48 444 378 214">
+    <rect x="48" y="444" width="378" height="214" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/chart-bar" x="66" y="460" width="24" height="24" stroke="#00879E"/>
+    <text x="98" y="479" font-size="20" font-weight="bold" fill="#0F3D4C">加工统计与修整轮周期</text>
+    <text x="66" y="514" font-size="16" fill="#16202A">
+      <tspan x="66" dy="0">• 按砂轮序号记录完工数与更换日期</tspan>
+      <tspan x="66" dy="28">• 换轮并执行新砂轮修整自动新记一片</tspan>
+      <tspan x="66" dy="28">• 换修整轮后点「重置计数」清零</tspan>
+      <tspan x="66" dy="28" fill="#52606D">需在机床配置开启统计与生命周期显示</tspan>
+    </text>
+  </g>
+
+  <g id="p09-card-life" data-pptx-bounds="451 444 378 214">
+    <rect x="451" y="444" width="378" height="214" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/clock-2" x="469" y="460" width="24" height="24" stroke="#D97706"/>
+    <text x="501" y="479" font-size="20" font-weight="bold" fill="#0F3D4C">配件寿命预警与滚轮记录</text>
+    <text x="469" y="514" font-size="16" fill="#16202A">
+      <tspan x="469" dy="0">• 为各类配件设寿命上限与报警提示</tspan>
+      <tspan x="469" dy="28">• 运行自动累计，超限启动即暂停提示</tspan>
+      <tspan x="469" dy="28">• 更换后点右侧「↺」清零并记录时间</tspan>
+      <tspan x="469" dy="28" fill="#52606D">右侧「滚轮记录」可查历次编号与日期</tspan>
+    </text>
+  </g>
+
+  <g id="p09-card-backup" data-pptx-bounds="854 444 378 214">
+    <rect x="854" y="444" width="378" height="214" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/database-edit" x="872" y="460" width="24" height="24" stroke="#0F3D4C"/>
+    <text x="904" y="479" font-size="20" font-weight="bold" fill="#0F3D4C">自定义变量列表备份规则</text>
+    <text x="872" y="514" font-size="16" fill="#16202A">
+      <tspan x="872" dy="0">• 子程序目录列表最多支持 790 个参数</tspan>
+      <tspan x="872" dy="28">• 分号「;」为注释，变量前加「*」表字符</tspan>
+      <tspan x="872" dy="28">• 界面须填含空行/注释的文件总行数</tspan>
+      <tspan x="872" dy="28" font-weight="bold" fill="#D97706">• 备份/恢复后务必切回「加工」模式</tspan>
+    </text>
+  </g>
+
+  <g id="p09-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" font-size="15" fill="#52606D">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">09 / 10</text>
+  </g>
+</svg>

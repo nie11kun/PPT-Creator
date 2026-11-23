@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720"
+     data-pptx-page-role="cover"
+     font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#0F3D4C"/>
+      <stop offset="100%" stop-color="#082732"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-20%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#F2F5F8"/>
+  <rect id="cover-left-bg" data-pptx-role="decoration" x="0" y="0" width="654" height="720" fill="url(#heroGrad)"/>
+  <rect id="cover-seam" data-pptx-role="decoration" x="654" y="0" width="6" height="720" fill="#00879E"/>
+
+  <g id="cover-header" data-pptx-bounds="52 58 564 282">
+    <rect x="52" y="58" width="292" height="36" rx="18" fill="#00879E"/>
+    <text x="198" y="82" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">SINUMERIK · 数控内螺纹磨床</text>
+
+    <text x="52" y="164" font-size="54" font-weight="bold" fill="#FFFFFF">TEST 数控内螺纹磨床</text>
+    <text x="52" y="224" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#99F6E4">HMI 3.29.0 系统介绍</text>
+
+    <text x="52" y="282" font-size="22" fill="#E2E8F0">
+      <tspan x="52" dy="0">将“修整—对刀—磨削—扩展—运维”集成于统一界面</tspan>
+      <tspan x="52" dy="34">兼顾微米级内螺纹加工精度与现场高效稳定运维</tspan>
+    </text>
+  </g>
+
+  <g id="cover-pipeline" data-pptx-bounds="52 380 564 128">
+    <text x="52" y="402" font-size="18" font-weight="bold" fill="#99F6E4">全流程核心能力链路</text>
+
+    <rect x="52" y="424" width="96" height="68" rx="10" fill="#134E5E" stroke="#00879E" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/adjustments-alt" x="86" y="432" width="28" height="28" stroke="#99F6E4"/>
+    <text x="100" y="482" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">修整</text>
+
+    <line x1="152" y1="458" x2="164" y2="458" stroke="#00879E" stroke-width="2"/>
+
+    <rect x="168" y="424" width="96" height="68" rx="10" fill="#134E5E" stroke="#00879E" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/target-arrow" x="202" y="432" width="28" height="28" stroke="#99F6E4"/>
+    <text x="216" y="482" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">对刀</text>
+
+    <line x1="268" y1="458" x2="280" y2="458" stroke="#00879E" stroke-width="2"/>
+
+    <rect x="284" y="424" width="96" height="68" rx="10" fill="#134E5E" stroke="#00879E" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/gauge" x="318" y="432" width="28" height="28" stroke="#99F6E4"/>
+    <text x="332" y="482" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">磨削</text>
+
+    <line x1="384" y1="458" x2="396" y2="458" stroke="#00879E" stroke-width="2"/>
+
+    <rect x="400" y="424" width="96" height="68" rx="10" fill="#134E5E" stroke="#00879E" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/layers-intersect" x="434" y="432" width="28" height="28" stroke="#99F6E4"/>
+    <text x="448" y="482" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">扩展</text>
+
+    <line x1="500" y1="458" x2="512" y2="458" stroke="#00879E" stroke-width="2"/>
+
+    <rect x="516" y="424" width="96" height="68" rx="10" fill="#134E5E" stroke="#00879E" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/shield-lock" x="550" y="432" width="28" height="28" stroke="#99F6E4"/>
+    <text x="564" y="482" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">运维</text>
+  </g>
+
+  <g id="cover-meta" data-pptx-bounds="52 544 564 126">
+    <line x1="52" y1="548" x2="608" y2="548" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="1"/>
+    <text x="52" y="588" font-size="18" fill="#E2E8F0">
+      <tspan x="52" dy="0">适用对象：机床客户 · 工艺工程师 · 现场操作 · 技术支持</tspan>
+      <tspan x="52" dy="32">资料依据：UserGuide 18 项活跃章节 · 软件版本 3.29.0</tspan>
+      <tspan x="52" dy="32" font-size="16" fill="#94A3B8">系统功能与操作体系概览 · 共 10 页</tspan>
+    </text>
+  </g>
+
+  <g id="cover-device" data-pptx-bounds="692 84 540 492">
+    <rect x="692" y="84" width="540" height="492" rx="14" fill="#FFFFFF" filter="url(#softShadow)"/>
+    <use data-icon="tabler-outline/home-2" x="712" y="102" width="22" height="22" stroke="#00879E"/>
+    <text x="742" y="120" font-size="18" font-weight="bold" fill="#0F3D4C">HMI 欢迎页主界面（按 CUSTOM 键进入）</text>
+    <image href="../images/image_001_17.png" x="712" y="138" width="500" height="375" preserveAspectRatio="xMidYMid meet"/>
+    <text x="712" y="550" font-size="18" fill="#52606D">右侧软键覆盖运维管理，底部「用户界面」直达加工参数</text>
+  </g>
+
+  <g id="cover-kpis" data-pptx-bounds="692 598 540 72">
+    <rect x="692" y="598" width="168" height="72" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="776" y="632" text-anchor="middle" font-size="26" font-weight="bold" fill="#0F3D4C">18 项</text>
+    <text x="776" y="658" text-anchor="middle" font-size="16" fill="#52606D">核心手册章节</text>
+
+    <rect x="878" y="598" width="168" height="72" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="962" y="632" text-anchor="middle" font-size="26" font-weight="bold" fill="#00879E">8 项</text>
+    <text x="962" y="658" text-anchor="middle" font-size="16" fill="#52606D">磨削扩展功能</text>
+
+    <rect x="1064" y="598" width="168" height="72" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="1148" y="632" text-anchor="middle" font-size="26" font-weight="bold" fill="#D97706">4 级</text>
+    <text x="1148" y="658" text-anchor="middle" font-size="16" fill="#52606D">安全权限隔离</text>
+  </g>
+</svg>

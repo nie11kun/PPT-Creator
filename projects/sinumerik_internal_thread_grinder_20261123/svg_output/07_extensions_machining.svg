@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720"
+     data-pptx-page-role="content"
+     font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="p07-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">06 · 专机扩展：异形与变参数磨削</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">四大专机级扩展功能，从容应对复杂内螺纹结构</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5"/>
+  </g>
+
+  <g id="p07-ext-1" data-pptx-bounds="48 140 284 194">
+    <rect x="48" y="140" width="284" height="194" rx="10" fill="#F2F5F8" stroke="#00879E" stroke-width="1.5"/>
+    <rect x="64" y="156" width="32" height="28" rx="6" fill="#0F3D4C"/>
+    <text x="80" y="176" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">01</text>
+    <text x="106" y="177" font-size="20" font-weight="bold" fill="#0F3D4C">环形槽磨削</text>
+    <text x="64" y="212" font-size="16" fill="#16202A">
+      <tspan x="64" dy="0">• 磨削类型选「环形槽」进入</tspan>
+      <tspan x="64" dy="26">• 最多填 4 组槽(槽数/距/升)</tspan>
+      <tspan x="64" dy="26">• 设起始/终止槽逐槽磨削</tspan>
+      <tspan x="64" dy="26" fill="#52606D">• 左侧实时显示已加工槽数</tspan>
+    </text>
+  </g>
+
+  <g id="p07-ext-2" data-pptx-bounds="348 140 284 194">
+    <rect x="348" y="140" width="284" height="194" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <rect x="364" y="156" width="32" height="28" rx="6" fill="#00879E"/>
+    <text x="380" y="176" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">02</text>
+    <text x="406" y="177" font-size="20" font-weight="bold" fill="#0F3D4C">螺距变换(单/多)</text>
+    <text x="364" y="212" font-size="16" fill="#16202A">
+      <tspan x="364" dy="0">• 单段：给定角度或终点变换</tspan>
+      <tspan x="364" dy="26">• 多段：按段填角度与螺距</tspan>
+      <tspan x="364" dy="26">• 对准变换位1 自动算位2</tspan>
+      <tspan x="364" dy="26" fill="#52606D">• 确认后开平滑轨迹防冲击</tspan>
+    </text>
+  </g>
+
+  <g id="p07-ext-3" data-pptx-bounds="648 140 284 194">
+    <rect x="648" y="140" width="284" height="194" rx="10" fill="#F2F5F8" stroke="#00879E" stroke-width="1.5"/>
+    <rect x="664" y="156" width="32" height="28" rx="6" fill="#0F3D4C"/>
+    <text x="680" y="176" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">03</text>
+    <text x="706" y="177" font-size="20" font-weight="bold" fill="#0F3D4C">反向孔倒角</text>
+    <text x="664" y="212" font-size="16" fill="#16202A">
+      <tspan x="664" dy="0">• 设过渡角/深度/平移与预倒</tspan>
+      <tspan x="664" dy="26">• 支持手填Z坐标或首孔推算</tspan>
+      <tspan x="664" dy="26">• 附位置补偿与终点补偿</tspan>
+      <tspan x="664" dy="26" fill="#52606D">• 磨后直接微调倒角深度</tspan>
+    </text>
+  </g>
+
+  <g id="p07-ext-4" data-pptx-bounds="948 140 284 194">
+    <rect x="948" y="140" width="284" height="194" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <rect x="964" y="156" width="32" height="28" rx="6" fill="#00879E"/>
+    <text x="980" y="176" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">04</text>
+    <text x="1006" y="177" font-size="20" font-weight="bold" fill="#0F3D4C">变径磨削</text>
+    <text x="964" y="212" font-size="16" fill="#16202A">
+      <tspan x="964" dy="0">• 设两端无效牙角度与变径量</tspan>
+      <tspan x="964" dy="26">• 设变径过渡角度</tspan>
+      <tspan x="964" dy="26">• 模式1：每刀螺纹同步变径</tspan>
+      <tspan x="964" dy="26" fill="#52606D">• 模式2：螺纹完后单磨变径</tspan>
+    </text>
+  </g>
+
+  <g id="p07-screen-ring" data-pptx-bounds="48 352 576 306">
+    <rect x="48" y="352" width="576" height="306" rx="12" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5"/>
+    <image href="../images/image_001_5.png" x="62" y="370" width="356" height="267" preserveAspectRatio="xMidYMid meet"/>
+    <text x="434" y="406" font-size="20" font-weight="bold" fill="#0F3D4C">环形槽磨削界面</text>
+    <text x="434" y="444" font-size="16" fill="#16202A">
+      <tspan x="434" dy="0">• 最多 4 组槽参数</tspan>
+      <tspan x="434" dy="30">• 记首槽起始 .Z/.X</tspan>
+      <tspan x="434" dy="30">• 按起始~终止槽磨</tspan>
+      <tspan x="434" dy="30" fill="#00879E" font-weight="bold">• 左侧实时状态监控</tspan>
+    </text>
+  </g>
+
+  <g id="p07-screen-chamfer" data-pptx-bounds="656 352 576 306">
+    <rect x="656" y="352" width="576" height="306" rx="12" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5"/>
+    <image href="../images/image_004_3.png" x="670" y="370" width="356" height="267" preserveAspectRatio="xMidYMid meet"/>
+    <text x="1042" y="406" font-size="20" font-weight="bold" fill="#0F3D4C">反向孔倒角界面</text>
+    <text x="1042" y="444" font-size="16" fill="#16202A">
+      <tspan x="1042" dy="0">• 需机床配置开启</tspan>
+      <tspan x="1042" dy="30">• 手动/自动定位模式</tspan>
+      <tspan x="1042" dy="30">• 设过渡角与预倒角</tspan>
+      <tspan x="1042" dy="30" fill="#52606D">• 位置与终点双补偿</tspan>
+    </text>
+  </g>
+
+  <g id="p07-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" font-size="15" fill="#52606D">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">07 / 10</text>
+  </g>
+</svg>

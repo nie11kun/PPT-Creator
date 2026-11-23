@@ -1,0 +1,165 @@
+{
+  "stage": "stage2",
+  "selection_sha256": "d44de3e7f16df18cafb394db27cd03a565032798eea3ef07c0ee370321395f6a",
+  "lang": "zh",
+  "recommend": {
+    "delivery_purpose": "balanced",
+    "mode": "custom",
+    "visual_style": "custom",
+    "image_strategy": "custom",
+    "image_usage": ["provided"],
+    "generation_mode": "continuous"
+  },
+  "page_count": {
+    "value": "10"
+  },
+  "image_notes": {
+    "value": "优先使用手册自带的 800×600 原生 HMI 界面截图（欢迎页、磨削主界面、工艺表、修整/滚轮/齿型、6 种自动对刀、统计与寿命、备份恢复等）作为真实系统展示，禁止裁剪截图关键标签；配合原生 SVG 工艺流程与参数对比图表。"
+  },
+  "proactive_speaker_notes": {
+    "value": true
+  },
+  "proactive_custom_animations": {
+    "value": false
+  },
+  "proactive_narration_audio": {
+    "value": false
+  },
+  "refine_spec": {
+    "value": false
+  },
+  "design_spec_depth": {
+    "value": "brief"
+  },
+  "design_directions": {
+    "selected": 0,
+    "candidates": [
+      {
+        "id": "precision-swiss",
+        "name": "精密工程瑞士风",
+        "note": "明快留白的精密工程栅格设计，以深青蓝工业主色搭配柔和圆角截图框，让 800×600 HMI 界面截图自然融入且逻辑清晰。",
+        "mode": "custom",
+        "mode_behavior": "以 instructional 作为核心结构基底，按照“机床概览与导航 → 砂轮修整与滚轮齿型 → 对刀标定 → 多级工艺磨削 → 8 项扩展功能 → 运维统计与配置安全”的加工准备与执行顺序递进展开，同类界面与并列模式采用对称结构方便对照，每页用明确的功能/工序结论作标题。",
+        "visual_style": "custom",
+        "visual_style_behavior": "由 swiss-minimal 负责严谨的 12 列对齐栅格、宽裕负空间、清晰序号锚点与极简直线分割，由 soft-rounded 负责 HMI 实机截图容器、功能标签与步骤节点的统一圆角（6–8px）及浅色衬底微抬升；整体保持扁平通透、少装饰、零冗余阴影，高对比工业青与琥珀点缀专用于高亮关键工序与安全提示。",
+        "icons": "tabler-outline",
+        "color": {
+          "name": "工业精密青",
+          "palette": {
+            "background": "#FFFFFF",
+            "secondary_bg": "#F2F5F8",
+            "primary": "#0F3D4C",
+            "accent": "#00879E",
+            "secondary_accent": "#D97706",
+            "body_text": "#16202A"
+          }
+        },
+        "typography": {
+          "name": "黑体 + 微软雅黑 + Arial",
+          "heading": {
+            "primary": "SimHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "精密工程线框图",
+          "rendering": "custom",
+          "visual": "以均匀单线轮廓和严格的网格留白构图，呈现机床结构或工艺原理示意，避免多余质感与渐变",
+          "mood": "冷静、精密、理性克制，如同德国机床技术白皮书中的工程插图",
+          "behavior": "由 blueprint 负责 1–1.5px 均匀精确的工程示意线与局部高亮路径，由 minimalist-swiss 负责严格正交栅格、大面积中性留白与平面色块分区；完全扁平无透视阴影，仅使用主色与强调色标识核心动作。"
+        }
+      },
+      {
+        "id": "sinumerik-blueprint",
+        "name": "深蓝工程蓝图风",
+        "note": "深石板蓝工程图纸底色搭配发光青色标线与双色图标，营造硬核数控系统展厅质感，在投影演示时令浅色 HMI 截图格外醒目。",
+        "mode": "custom",
+        "mode_behavior": "以 showcase 负责开篇主视觉冲击与核心能力提炼，以 instructional 负责修整、对刀、磨削与扩展工艺的分步拆解；每页先以大字号核心能力或关键参数建立视觉锚点，再结合实机界面说明操作逻辑与边界条件。",
+        "visual_style": "custom",
+        "visual_style_behavior": "由 blueprint 负责深色工程底纸上的精细标尺线框、引线标注、直角连接线与技术编号区块，由 dark-tech 负责局部高对比发光青色状态节点、极细低透明度辅助网格与清晰的深浅层次对比；避免厚重实心卡片与杂乱装饰，依靠线条权重与高对比高亮引导视线。",
+        "icons": "phosphor-duotone",
+        "color": {
+          "name": "深蓝工程蓝图",
+          "palette": {
+            "background": "#0B1522",
+            "secondary_bg": "#132236",
+            "primary": "#38BDF8",
+            "accent": "#F59E0B",
+            "secondary_accent": "#2DD4BF",
+            "body_text": "#E2E8F0"
+          }
+        },
+        "typography": {
+          "name": "微软雅黑 + Arial",
+          "heading": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "等轴测工程蓝图",
+          "rendering": "custom",
+          "visual": "30 度等轴测几何体与工程蓝图引导线结合，展现多轴磨削与修整系统空间关系",
+          "mood": "硬核、精准、富有工业科技感，如同高端 CNC 数控系统研发中心的技术原理图",
+          "behavior": "由 3d-isometric 负责标准 30° 等轴测几何模块与 15% 明暗面区分，由 blueprint 负责均匀工程细线、节点锚点与低透明度技术网格背景；保持表面纯色克制，仅以强调色点亮核心加工路径。"
+        }
+      },
+      {
+        "id": "editorial-catalog",
+        "name": "德系工业画册风",
+        "note": "温润米白纸感底色配合宋体标题与极细栏目分割线，呈现德系工业产品手册般的权威感与阅读舒适度，适合会后深度传阅。",
+        "mode": "custom",
+        "mode_behavior": "以 briefing 负责全景式、中立且易于查阅的模块化功能盘点（界面体系、修整体系、对刀模式、扩展功能矩阵与运维模块），结合 pyramid 在关键能力页前置核心设计判断与工况适用边界，确保现场讲解与会后查手册同样顺畅。",
+        "visual_style": "custom",
+        "visual_style_behavior": "由 editorial 负责杂志级非对称分栏、超大页眉序号、极细水平与垂直分割线以及清晰的“眉题—标题—导语—正文”垂直层级，由 data-journalism 负责结构化参数对照表、侧栏要点汇总与紧凑清晰的图表注释；全套保持平铺印刷感，以细线和留白取代浮雕投影。",
+        "icons": "tabler-filled",
+        "color": {
+          "name": "暖纸工业石青",
+          "palette": {
+            "background": "#F8F7F4",
+            "secondary_bg": "#ECEAE4",
+            "primary": "#005F6A",
+            "accent": "#C84B31",
+            "secondary_accent": "#3D6B73",
+            "body_text": "#1E2428"
+          }
+        },
+        "typography": {
+          "name": "宋体 + Georgia + 微软雅黑",
+          "heading": {
+            "primary": "SimSun",
+            "english": "Georgia",
+            "css": "serif"
+          },
+          "body": {
+            "primary": "Microsoft YaHei",
+            "english": "Arial",
+            "css": "sans-serif"
+          },
+          "body_size": 24
+        },
+        "image_strategy": {
+          "name": "编辑矢量插画",
+          "rendering": "custom",
+          "visual": "简洁平坦的矢量几何构图搭配杂志级留白与极细指示线，像精装工业年鉴的跨页配图",
+          "mood": "权威、沉稳、历久弥新，如同西门子生态工业产品年鉴中的专业图解",
+          "behavior": "由 editorial 负责克制的非对称分栏节奏与杂志式结构引导线，由 vector-illustration 负责 1.5–2px 清晰矢量轮廓与纯色平涂块面；无多余渐变和写实渲染，严格服从纸面暖灰底与石青主色。"
+        }
+      }
+    ]
+  }
+}

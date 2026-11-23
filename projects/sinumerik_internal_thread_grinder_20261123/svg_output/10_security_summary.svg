@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720"
+     data-pptx-page-role="ending"
+     font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="p10-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">09 · 安全权限与全系统总结</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">四级权限隔离与挑战码保护，兼顾便捷与安全</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5"/>
+  </g>
+
+  <g id="p10-tiers" data-pptx-bounds="48 140 656 392">
+    <rect x="48" y="140" width="656" height="86" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <rect x="64" y="160" width="144" height="46" rx="8" fill="#00879E"/>
+    <text x="136" y="189" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">1 · 钥匙 0 档</text>
+    <text x="224" y="178" font-size="18" font-weight="bold" fill="#0F3D4C">日常加工微调权限</text>
+    <text x="224" y="206" font-size="16" fill="#16202A">修改中径补偿、偏刀补偿、全长导程/锥度补偿等日常参数</text>
+
+    <rect x="48" y="242" width="656" height="86" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <rect x="64" y="262" width="144" height="46" rx="8" fill="#00879E"/>
+    <text x="136" y="291" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">2 · 钥匙 3 档</text>
+    <text x="224" y="280" font-size="18" font-weight="bold" fill="#0F3D4C">工艺与标定权限</text>
+    <text x="224" y="308" font-size="16" fill="#16202A">修改工件、工艺表、修整、滚轮、齿型、对刀参数及加工统计</text>
+
+    <rect x="48" y="344" width="656" height="86" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <rect x="64" y="364" width="144" height="46" rx="8" fill="#0F3D4C"/>
+    <text x="136" y="393" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">3 · 用户口令</text>
+    <text x="224" y="382" font-size="18" font-weight="bold" fill="#0F3D4C">运维与数据管理权限</text>
+    <text x="224" y="410" font-size="16" fill="#16202A">访问参数备份恢复、出厂信息及机床配置界面入口</text>
+
+    <rect x="48" y="446" width="656" height="86" rx="10" fill="#FFFBEB" stroke="#D97706" stroke-width="1.5"/>
+    <rect x="64" y="466" width="144" height="46" rx="8" fill="#D97706"/>
+    <text x="136" y="495" text-anchor="middle" font-size="18" font-weight="bold" fill="#FFFFFF">4 · 制造商口令</text>
+    <text x="224" y="484" font-size="18" font-weight="bold" fill="#92400E">挑战码保护 · 底层配置（禁止自行篡改）</text>
+    <text x="224" y="512" font-size="16" fill="#16202A">控制选配功能显隐、重置机床数据、放宽/收紧参数极限</text>
+  </g>
+
+  <g id="p10-screen" data-pptx-bounds="724 140 508 392">
+    <rect x="724" y="140" width="508" height="392" rx="12" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <image href="../images/image_001_15.png" x="774" y="156" width="408" height="306" preserveAspectRatio="xMidYMid meet"/>
+    <text x="748" y="492" font-size="16" fill="#16202A">
+      <tspan x="748" dy="0" font-weight="bold" fill="#0F3D4C">机床配置挑战码保护界面</tspan>
+      <tspan x="748" dy="24">屏幕生成挑战码，需联系制造商提供解锁口令后方可修改</tspan>
+    </text>
+  </g>
+
+  <g id="p10-closing" data-pptx-bounds="48 548 1184 112">
+    <rect x="48" y="548" width="1184" height="112" rx="12" fill="#0F3D4C"/>
+    <use data-icon="tabler-outline/circle-check" x="72" y="566" width="26" height="26" stroke="#99F6E4"/>
+    <text x="108" y="586" font-size="22" font-weight="bold" fill="#FFFFFF">全周期闭环：统一 HMI 串联「修整 → 对刀 → 四级磨削 → 扩展加工 → 寿命备份 → 安全配置」</text>
+    <text x="72" y="630" font-size="18" fill="#99F6E4">现场落地三步建议：① 核对出厂选配功能  →  ② 标定修整轮与首件试磨  →  ③ 开启统计预警与定期备份</text>
+  </g>
+
+  <g id="p10-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" font-size="15" fill="#52606D">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">10 / 10</text>
+  </g>
+</svg>

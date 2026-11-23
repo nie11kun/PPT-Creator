@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720"
+     data-pptx-page-role="content"
+     font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF"/>
+
+  <g id="p06-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">05 · 核心工艺：四级磨削与闭环补偿</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">粗磨至终磨四级工艺联动，实现尺寸与螺距闭环</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5"/>
+  </g>
+
+  <g id="craft-stage-table" data-pptx-replace-with="table" data-pptx-bounds="48 140 656 260" data-pptx-fallback-sha256="4d92b517a1c7dfc12671128df373462c449a29990eaf04f4418d0efddd854479">
+    <metadata type="application/json">
+      {
+        "schema": "ppt-master.semantic-table.v2",
+        "name": "craft-stage-table",
+        "x": 48,
+        "y": 140,
+        "width": 656,
+        "height": 260,
+        "column_widths": [176, 120, 120, 120, 120],
+        "row_heights": [44, 43, 43, 43, 43, 44],
+        "header_rows": 1,
+        "style": {
+          "font_family": "Microsoft YaHei, Arial, sans-serif",
+          "font_size": 16,
+          "header_font_size": 16,
+          "header_fill": "#0F3D4C",
+          "header_text": "#FFFFFF",
+          "body_fill": "#FFFFFF",
+          "band_fill": "#F2F5F8",
+          "band_row": true,
+          "body_text": "#16202A",
+          "padding": 6,
+          "valign": "middle"
+        },
+        "defaults": {
+          "cell": {
+            "borders": {
+              "top": {"style": "none"},
+              "bottom": {"style": "solid", "color": "#D9E2EC", "width": 1},
+              "left": {"style": "none"},
+              "right": {"style": "none"}
+            }
+          }
+        },
+        "columns": [
+          {"text": "工序 / 参考项目", "align": "l", "bold": true},
+          {"text": "粗磨", "align": "ctr", "bold": true},
+          {"text": "半精磨", "align": "ctr", "bold": true},
+          {"text": "精磨", "align": "ctr", "bold": true},
+          {"text": "终磨", "align": "ctr", "bold": true}
+        ],
+        "rows": [
+          [
+            {"text": "单双磨", "align": "l", "bold": true, "color": "#0F3D4C", "fill": "#FFFFFF"},
+            {"text": "单向", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "单向", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "单向", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "单向", "align": "ctr", "fill": "#FFFFFF"}
+          ],
+          [
+            {"text": "循环次数", "align": "l", "bold": true, "color": "#0F3D4C", "fill": "#F2F5F8"},
+            {"text": "按余量", "align": "ctr", "fill": "#F2F5F8"},
+            {"text": "3", "align": "ctr", "fill": "#F2F5F8"},
+            {"text": "2", "align": "ctr", "fill": "#F2F5F8"},
+            {"text": "2", "align": "ctr", "fill": "#F2F5F8"}
+          ],
+          [
+            {"text": "进给深度(mm)", "align": "l", "bold": true, "color": "#0F3D4C", "fill": "#FFFFFF"},
+            {"text": "0.04", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "0.02", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "0.01", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "0.005", "align": "ctr", "fill": "#FFFFFF"}
+          ],
+          [
+            {"text": "修整设定(次)", "align": "l", "bold": true, "color": "#0F3D4C", "fill": "#F2F5F8"},
+            {"text": "5", "align": "ctr", "fill": "#F2F5F8"},
+            {"text": "3", "align": "ctr", "fill": "#F2F5F8"},
+            {"text": "0", "align": "ctr", "fill": "#F2F5F8"},
+            {"text": "0", "align": "ctr", "fill": "#F2F5F8"}
+          ],
+          [
+            {"text": "头架转速(r/min)", "align": "l", "bold": true, "color": "#0F3D4C", "fill": "#FFFFFF"},
+            {"text": "50", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "40", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "30", "align": "ctr", "fill": "#FFFFFF"},
+            {"text": "30", "align": "ctr", "fill": "#FFFFFF"}
+          ]
+        ]
+      }
+    </metadata>
+
+    <rect x="48" y="140" width="656" height="44" fill="#0F3D4C"/>
+    <rect x="48" y="184" width="656" height="43" fill="#FFFFFF"/>
+    <rect x="48" y="227" width="656" height="43" fill="#F2F5F8"/>
+    <rect x="48" y="270" width="656" height="43" fill="#FFFFFF"/>
+    <rect x="48" y="313" width="656" height="43" fill="#F2F5F8"/>
+    <rect x="48" y="356" width="656" height="44" fill="#FFFFFF"/>
+
+    <g stroke="#D9E2EC" stroke-width="1">
+      <line x1="48" y1="184" x2="704" y2="184"/>
+      <line x1="48" y1="227" x2="704" y2="227"/>
+      <line x1="48" y1="270" x2="704" y2="270"/>
+      <line x1="48" y1="313" x2="704" y2="313"/>
+      <line x1="48" y1="356" x2="704" y2="356"/>
+      <line x1="48" y1="400" x2="704" y2="400"/>
+    </g>
+
+    <g font-size="16" font-weight="bold" fill="#FFFFFF">
+      <text x="60" y="168">工序 / 参考项目</text>
+      <text x="284" y="168" text-anchor="middle">粗磨</text>
+      <text x="404" y="168" text-anchor="middle">半精磨</text>
+      <text x="524" y="168" text-anchor="middle">精磨</text>
+      <text x="644" y="168" text-anchor="middle">终磨</text>
+    </g>
+
+    <g font-size="16" fill="#16202A">
+      <text x="60" y="211" font-weight="bold" fill="#0F3D4C">单双磨</text>
+      <text x="284" y="211" text-anchor="middle">单向</text>
+      <text x="404" y="211" text-anchor="middle">单向</text>
+      <text x="524" y="211" text-anchor="middle">单向</text>
+      <text x="644" y="211" text-anchor="middle">单向</text>
+
+      <text x="60" y="254" font-weight="bold" fill="#0F3D4C">循环次数</text>
+      <text x="284" y="254" text-anchor="middle">按余量</text>
+      <text x="404" y="254" text-anchor="middle">3</text>
+      <text x="524" y="254" text-anchor="middle">2</text>
+      <text x="644" y="254" text-anchor="middle">2</text>
+
+      <text x="60" y="297" font-weight="bold" fill="#0F3D4C">进给深度(mm)</text>
+      <text x="284" y="297" text-anchor="middle">0.04</text>
+      <text x="404" y="297" text-anchor="middle">0.02</text>
+      <text x="524" y="297" text-anchor="middle">0.01</text>
+      <text x="644" y="297" text-anchor="middle">0.005</text>
+
+      <text x="60" y="340" font-weight="bold" fill="#0F3D4C">修整设定(次)</text>
+      <text x="284" y="340" text-anchor="middle">5</text>
+      <text x="404" y="340" text-anchor="middle">3</text>
+      <text x="524" y="340" text-anchor="middle">0</text>
+      <text x="644" y="340" text-anchor="middle">0</text>
+
+      <text x="60" y="384" font-weight="bold" fill="#0F3D4C">头架转速(r/min)</text>
+      <text x="284" y="384" text-anchor="middle">50</text>
+      <text x="404" y="384" text-anchor="middle">40</text>
+      <text x="524" y="384" text-anchor="middle">30</text>
+      <text x="644" y="384" text-anchor="middle">30</text>
+    </g>
+  </g>
+
+  <g id="p06-compensation" data-pptx-bounds="48 416 656 242">
+    <rect x="48" y="416" width="656" height="242" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="66" y="446" font-size="18" font-weight="bold" fill="#0F3D4C">双模式工艺表 &amp; 磨削后六大偏差精准补偿</text>
+    <text x="66" y="476" font-size="16" font-weight="bold" fill="#00879E">磨削速度 = 头架转速 × 螺距 × 头数 · 单件/批量独立保存且支持断点续磨</text>
+
+    <rect x="66" y="494" width="302" height="44" rx="8" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="80" y="522" font-size="16" fill="#16202A">中径偏差 → <tspan font-weight="bold" fill="#0F3D4C">中径补偿(直径差)</tspan></text>
+
+    <rect x="384" y="494" width="302" height="44" rx="8" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="398" y="522" font-size="16" fill="#16202A">两侧不均 → <tspan font-weight="bold" fill="#0F3D4C">偏刀补偿(Z向偏移)</tspan></text>
+
+    <rect x="66" y="546" width="302" height="44" rx="8" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="80" y="574" font-size="16" fill="#16202A">螺距累积 → <tspan font-weight="bold" fill="#0F3D4C">全长导程补偿</tspan></text>
+
+    <rect x="384" y="546" width="302" height="44" rx="8" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="398" y="574" font-size="16" fill="#16202A">两端差径 → <tspan font-weight="bold" fill="#0F3D4C">全长锥度补偿</tspan></text>
+
+    <rect x="66" y="598" width="302" height="44" rx="8" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="80" y="626" font-size="16" fill="#16202A">局部段差 → <tspan font-weight="bold" fill="#00879E">分段补偿功能</tspan></text>
+
+    <rect x="384" y="598" width="302" height="44" rx="8" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="398" y="626" font-size="16" fill="#16202A">修整漂移 → <tspan font-weight="bold" fill="#00879E">磨削中补偿</tspan></text>
+  </g>
+
+  <g id="p06-screen" data-pptx-bounds="724 140 508 518">
+    <rect x="724" y="140" width="508" height="518" rx="12" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1"/>
+    <text x="744" y="172" font-size="18" font-weight="bold" fill="#0F3D4C">工艺参数表实机视图（批量 / 单件切换）</text>
+    <image href="../images/image_001_8.png" x="744" y="188" width="468" height="351" preserveAspectRatio="xMidYMid meet"/>
+    <text x="744" y="576" font-size="18" fill="#16202A">
+      <tspan x="744" dy="0">• 红框：四级工序参数（线速度参考 20 m/s）</tspan>
+      <tspan x="744" dy="28">• 进给为单边半径值，双向可设总和/单次</tspan>
+    </text>
+  </g>
+
+  <g id="p06-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" font-size="15" fill="#52606D">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">06 / 10</text>
+  </g>
+</svg>

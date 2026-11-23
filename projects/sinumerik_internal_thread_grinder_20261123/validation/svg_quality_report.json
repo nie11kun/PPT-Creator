@@ -1,0 +1,811 @@
+{
+  "schema": "ppt-master.svg-quality-report.v1",
+  "stage": "final",
+  "target": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123",
+  "source_fingerprint": {
+    "algorithm": "sha256",
+    "digest": "46acd16a4e793431b328b6a09fd136eb29441785f8319dabb426f36e35bca8c9",
+    "file_count": 10,
+    "files": [
+      {
+        "file": "01_cover.svg",
+        "sha256": "d71dfae24a9e95a08c7f27695022559c19c2dd48702d49b345d5f50f606f794d"
+      },
+      {
+        "file": "02_hmi_navigation.svg",
+        "sha256": "2d3758064b0b2c8aa00179b6fed9ecadf979deb91b428a844ba8cdc36cf07c94"
+      },
+      {
+        "file": "03_wheel_dressing.svg",
+        "sha256": "1aad198a5e79d6e6bbeb5d1817c65652256cbd20d5e40575de247b02961b539c"
+      },
+      {
+        "file": "04_profiles_rollers.svg",
+        "sha256": "298a8f897f16ebd9c043bac7ad0f5262969423a1629121b995abbb51e98c779f"
+      },
+      {
+        "file": "05_alignment.svg",
+        "sha256": "8093c4de0b73ee5dfa7061fc38c031542a5999ac2fd4b78b7a8780cc7a7a0c31"
+      },
+      {
+        "file": "06_process_grinding.svg",
+        "sha256": "c470b432c9cbc53323e348892fc6c57144e7008d5f55aee33895e9f8addc61b9"
+      },
+      {
+        "file": "07_extensions_machining.svg",
+        "sha256": "bc68984ecc3d1100d0c84f598adb81983c4cdf93d4b45ed834f291a03917b38c"
+      },
+      {
+        "file": "08_extensions_precision.svg",
+        "sha256": "5d89e997a2484c713e2d1f87ca3ad8c0723563cf66c572cbb9a0c9973763e87d"
+      },
+      {
+        "file": "09_stats_life_backup.svg",
+        "sha256": "452b4761a9b2e58590b8cb05e64f9545472ca752a68e7220318d885de4110724"
+      },
+      {
+        "file": "10_security_summary.svg",
+        "sha256": "4e52ad371f72ac8101a6d56df50f81109b19464555a909d4185ad59d68218ea4"
+      }
+    ]
+  },
+  "summary": {
+    "total": 10,
+    "passed": 10,
+    "warnings": 0,
+    "errors": 0
+  },
+  "issue_types": {},
+  "categories": {
+    "blocking": {
+      "count": 0,
+      "issues": []
+    },
+    "introduced": {
+      "count": 0,
+      "issues": []
+    },
+    "inherited": {
+      "count": 0,
+      "issues": []
+    },
+    "source-import": {
+      "count": 0,
+      "summary": {
+        "warning_count": 0,
+        "by_code": {}
+      }
+    }
+  },
+  "drift": {
+    "colors": {
+      "#000000": [
+        "01_cover.svg"
+      ],
+      "#082732": [
+        "01_cover.svg"
+      ],
+      "#134E5E": [
+        "01_cover.svg"
+      ],
+      "#92400E": [
+        "10_security_summary.svg"
+      ],
+      "#94A3B8": [
+        "01_cover.svg"
+      ],
+      "#99F6E4": [
+        "01_cover.svg",
+        "03_wheel_dressing.svg",
+        "10_security_summary.svg"
+      ],
+      "#E2E8F0": [
+        "01_cover.svg",
+        "03_wheel_dressing.svg"
+      ],
+      "#FFFBEB": [
+        "10_security_summary.svg"
+      ]
+    },
+    "fonts": {},
+    "sizes": {}
+  },
+  "carrier_receipt": {
+    "scope": "informational-not-a-quota",
+    "pages": 10,
+    "totals": {
+      "text_elements": 199,
+      "image_placements": 15,
+      "icons": 23,
+      "svg_geometry_elements": 122,
+      "preset_shapes": 0,
+      "page_frame_elements": 12,
+      "marker_uses": 1,
+      "inline_emphasis_runs": 9,
+      "gradient_uses": 1,
+      "filter_uses": 1,
+      "text_effects": 0
+    },
+    "pages_with": {
+      "images": 10,
+      "icons": 7,
+      "presets": 0,
+      "charts": 0,
+      "tables": 1,
+      "formulas": 0,
+      "inline_emphasis_runs": 3,
+      "gradient_uses": 1,
+      "filter_uses": 1,
+      "text_effects": 0
+    },
+    "relationship_pages": 9,
+    "geometry_elements": {
+      "circle": 0,
+      "ellipse": 0,
+      "line": 21,
+      "path": 0,
+      "polygon": 0,
+      "polyline": 0,
+      "rect": 101
+    },
+    "preset_names": {},
+    "native_objects": {
+      "chart": 0,
+      "formula_block": 0,
+      "formula_inline": 0,
+      "other": 0,
+      "table": 1
+    },
+    "image_page_max_frame_share_range": [
+      0.0732,
+      0.2035
+    ]
+  },
+  "project_issues": {
+    "template": [],
+    "animation": [],
+    "illustration": [],
+    "communication_trace": [],
+    "pptx_structure": []
+  },
+  "files": [
+    {
+      "file": "01_cover.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\01_cover.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 1,
+            "files": [
+              "image_001_17.png"
+            ],
+            "max_frame_share": 0.2035
+          },
+          "icons": 6,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 1,
+            "filter_uses": 1,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 13,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 5,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 3,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 5,
+        "contextual_values": {
+          "colors": [
+            "#000000",
+            "#082732",
+            "#134E5E",
+            "#94A3B8",
+            "#99F6E4",
+            "#E2E8F0"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "d71dfae24a9e95a08c7f27695022559c19c2dd48702d49b345d5f50f606f794d"
+    },
+    {
+      "file": "02_hmi_navigation.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\02_hmi_navigation.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 1,
+            "files": [
+              "image_002_13.png"
+            ],
+            "max_frame_share": 0.1782
+          },
+          "icons": 4,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 15,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 2,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 1
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 14
+      },
+      "passed": true,
+      "source_sha256": "2d3758064b0b2c8aa00179b6fed9ecadf979deb91b428a844ba8cdc36cf07c94"
+    },
+    {
+      "file": "03_wheel_dressing.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\03_wheel_dressing.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 21,
+          "images": {
+            "placements": 1,
+            "files": [
+              "image_001_9.png"
+            ],
+            "max_frame_share": 0.1782
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 21,
+        "tspan_elements": 14,
+        "contextual_values": {
+          "colors": [
+            "#99F6E4",
+            "#E2E8F0"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "1aad198a5e79d6e6bbeb5d1817c65652256cbd20d5e40575de247b02961b539c"
+    },
+    {
+      "file": "04_profiles_rollers.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\04_profiles_rollers.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 2,
+            "files": [
+              "image_001_12.png",
+              "image_003_8.png"
+            ],
+            "max_frame_share": 0.1031
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 9,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 22
+      },
+      "passed": true,
+      "source_sha256": "298a8f897f16ebd9c043bac7ad0f5262969423a1629121b995abbb51e98c779f"
+    },
+    {
+      "file": "05_alignment.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\05_alignment.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 12,
+          "images": {
+            "placements": 2,
+            "files": [
+              "image_001_13.png",
+              "image_002_9.png"
+            ],
+            "max_frame_share": 0.1031
+          },
+          "icons": 2,
+          "effects": {
+            "inline_emphasis_runs": 2,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 5,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 12,
+        "tspan_elements": 20
+      },
+      "passed": true,
+      "source_sha256": "8093c4de0b73ee5dfa7061fc38c031542a5999ac2fd4b78b7a8780cc7a7a0c31"
+    },
+    {
+      "file": "06_process_grinding.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\06_process_grinding.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 44,
+          "images": {
+            "placements": 1,
+            "files": [
+              "image_001_8.png"
+            ],
+            "max_frame_share": 0.1782
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 6,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 15,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 7,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 1,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 44,
+        "tspan_elements": 8
+      },
+      "passed": true,
+      "source_sha256": "c470b432c9cbc53323e348892fc6c57144e7008d5f55aee33895e9f8addc61b9"
+    },
+    {
+      "file": "07_extensions_machining.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\07_extensions_machining.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 20,
+          "images": {
+            "placements": 2,
+            "files": [
+              "image_001_5.png",
+              "image_004_3.png"
+            ],
+            "max_frame_share": 0.1031
+          },
+          "icons": 0,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 11,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 20,
+        "tspan_elements": 24
+      },
+      "passed": true,
+      "source_sha256": "bc68984ecc3d1100d0c84f598adb81983c4cdf93d4b45ed834f291a03917b38c"
+    },
+    {
+      "file": "08_extensions_precision.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\08_extensions_precision.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 16,
+          "images": {
+            "placements": 2,
+            "files": [
+              "image_006_2.png",
+              "image_007_2.png"
+            ],
+            "max_frame_share": 0.0732
+          },
+          "icons": 4,
+          "effects": {
+            "inline_emphasis_runs": 1,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 7,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 16,
+        "tspan_elements": 20
+      },
+      "passed": true,
+      "source_sha256": "5d89e997a2484c713e2d1f87ca3ad8c0723563cf66c572cbb9a0c9973763e87d"
+    },
+    {
+      "file": "09_stats_life_backup.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\09_stats_life_backup.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 14,
+          "images": {
+            "placements": 2,
+            "files": [
+              "image_001_11.png",
+              "image_001_16.png"
+            ],
+            "max_frame_share": 0.0986
+          },
+          "icons": 3,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 6,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 14,
+        "tspan_elements": 22
+      },
+      "passed": true,
+      "source_sha256": "452b4761a9b2e58590b8cb05e64f9545472ca752a68e7220318d885de4110724"
+    },
+    {
+      "file": "10_security_summary.svg",
+      "path": "C:\\Users\\Marco Nie\\Development\\WorkProgram\\PPT-Creator\\projects\\sinumerik_internal_thread_grinder_20261123\\svg_output\\10_security_summary.svg",
+      "exists": true,
+      "errors": [],
+      "warnings": [],
+      "info": {
+        "viewbox": "0 0 1280 720",
+        "carrier_receipt": {
+          "text_elements": 19,
+          "images": {
+            "placements": 1,
+            "files": [
+              "image_001_15.png"
+            ],
+            "max_frame_share": 0.1355
+          },
+          "icons": 1,
+          "effects": {
+            "inline_emphasis_runs": 0,
+            "gradient_uses": 0,
+            "filter_uses": 0,
+            "text_effects": 0
+          },
+          "geometry": {
+            "svg_elements": {
+              "rect": 11,
+              "circle": 0,
+              "ellipse": 0,
+              "line": 1,
+              "polyline": 0,
+              "polygon": 0,
+              "path": 0
+            },
+            "preset_shapes": 0,
+            "preset_names": {},
+            "page_frame_elements": 1,
+            "marker_uses": {
+              "start": 0,
+              "mid": 0,
+              "end": 0
+            }
+          },
+          "native_objects": {
+            "chart": 0,
+            "table": 0,
+            "formula_block": 0,
+            "formula_inline": 0,
+            "other": 0
+          }
+        },
+        "fonts": [
+          "Microsoft YaHei, Arial, sans-serif",
+          "SimHei, Arial, sans-serif"
+        ],
+        "text_elements": 19,
+        "tspan_elements": 2,
+        "contextual_values": {
+          "colors": [
+            "#92400E",
+            "#99F6E4",
+            "#FFFBEB"
+          ]
+        }
+      },
+      "passed": true,
+      "source_sha256": "4e52ad371f72ac8101a6d56df50f81109b19464555a909d4185ad59d68218ea4"
+    }
+  ]
+}

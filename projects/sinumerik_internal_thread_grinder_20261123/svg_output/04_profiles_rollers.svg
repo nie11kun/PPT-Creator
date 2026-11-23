@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="p04-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">03 · 加工准备：齿型与滚轮</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">兼容三角、梯形与双圆弧齿型，支持多线高效修整</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5" />
+  </g>
+
+  <g id="p04-pillar-tri" data-pptx-bounds="48 140 378 190">
+    <rect x="48" y="140" width="378" height="190" rx="10" fill="#F2F5F8" />
+    <rect x="48" y="140" width="378" height="5" rx="2" fill="#0F3D4C" />
+    <text x="68" y="178" font-size="22" font-weight="bold" fill="#0F3D4C">三角与梯形齿型</text>
+    <text x="68" y="212" font-size="18" fill="#16202A">
+      <tspan x="68" dy="0">• 三角：普通单斜面 / 扩展上下两段</tspan>
+      <tspan x="68" dy="28">• 梯形：普通 / 扩展 / 戴帽中径定义</tspan>
+      <tspan x="68" dy="28">• 支持平顶/锥顶及附加行星齿、平面</tspan>
+      <tspan x="68" dy="28" fill="#52606D">齿高应略大于工件牙深，保证齿侧接触</tspan>
+    </text>
+  </g>
+
+  <g id="p04-pillar-arc" data-pptx-bounds="451 140 378 190">
+    <rect x="451" y="140" width="378" height="190" rx="10" fill="#F2F5F8" />
+    <rect x="451" y="140" width="378" height="5" rx="2" fill="#00879E" />
+    <text x="471" y="178" font-size="22" font-weight="bold" fill="#0F3D4C">双圆弧滚道（滚珠丝杠）</text>
+    <text x="471" y="212" font-size="18" fill="#16202A">
+      <tspan x="471" dy="0">• 初始 + 调整 = 当前（三列闭环修正）</tspan>
+      <tspan x="471" dy="28" fill="#00879E" font-weight="bold">• 半径 = 标准切换 × 钢球直径 / 2</tspan>
+      <tspan x="471" dy="28">• 偏心 = (半径 − 球径/2) × sin(接触角)</tspan>
+      <tspan x="471" dy="28" fill="#52606D">支持整齿旋转(±5°)与右侧高低微调</tspan>
+    </text>
+  </g>
+
+  <g id="p04-pillar-roller" data-pptx-bounds="854 140 378 190">
+    <rect x="854" y="140" width="378" height="190" rx="10" fill="#F2F5F8" />
+    <rect x="854" y="140" width="378" height="5" rx="2" fill="#D97706" />
+    <text x="874" y="178" font-size="22" font-weight="bold" fill="#0F3D4C">多线修整与 4 类滚轮</text>
+    <text x="874" y="212" font-size="18" fill="#16202A">
+      <tspan x="874" dy="0">• 选配多线：牙数 / 间隔螺距 0~5</tspan>
+      <tspan x="874" dy="28">• 齿高补偿(±1mm)均衡先磨牙负载</tspan>
+      <tspan x="874" dy="28">• 插补：单滚轮 / 方滚轮 / 双滚轮</tspan>
+      <tspan x="874" dy="28" fill="#52606D">成型：滚压轮直复制，无需设齿形</tspan>
+    </text>
+  </g>
+
+  <g id="p04-screen-arc" data-pptx-bounds="48 352 576 306">
+    <rect x="48" y="352" width="576" height="306" rx="12" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5" />
+    <image href="../images/image_003_8.png" x="62" y="372" width="356" height="267" preserveAspectRatio="xMidYMid meet" />
+    <text x="434" y="406" font-size="20" font-weight="bold" fill="#0F3D4C">双圆弧齿型界面</text>
+    <text x="434" y="444" font-size="16" fill="#16202A">
+      <tspan x="434" dy="0">• 哥特式左右双圆弧</tspan>
+      <tspan x="434" dy="30">• 标准切换推荐 1.11</tspan>
+      <tspan x="434" dy="30">• 钢球接触角推荐 45°</tspan>
+      <tspan x="434" dy="30">• 斜角/圆角倒角可选</tspan>
+      <tspan x="434" dy="30">• 含多线修整开关区</tspan>
+    </text>
+  </g>
+
+  <g id="p04-screen-roller" data-pptx-bounds="656 352 576 306">
+    <rect x="656" y="352" width="576" height="306" rx="12" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5" />
+    <image href="../images/image_001_12.png" x="670" y="372" width="356" height="267" preserveAspectRatio="xMidYMid meet" />
+    <text x="1042" y="406" font-size="20" font-weight="bold" fill="#0F3D4C">滚轮标定界面</text>
+    <text x="1042" y="444" font-size="16" fill="#16202A">
+      <tspan x="1042" dy="0">• 输入刃口圆弧半径</tspan>
+      <tspan x="1042" dy="30">• 输入滚轮直径 D2</tspan>
+      <tspan x="1042" dy="30">• 触碰外沿记当前.X</tspan>
+      <tspan x="1042" dy="30" fill="#00879E" font-weight="bold">• 核对初始接触.X=X1</tspan>
+      <tspan x="1042" dy="30">• 相等即中心距正确</tspan>
+    </text>
+  </g>
+
+  <g id="p04-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" fill="#52606D" font-size="15">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">04 / 10</text>
+  </g>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <defs>
+    <marker id="arrowTeal" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#00879E" />
+    </marker>
+  </defs>
+
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="p02-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">01 · 系统概览与操作导航</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">双层菜单架构与面板联动：一眼直达加工入口</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5" />
+  </g>
+
+  <g id="p02-tiers" data-pptx-bounds="48 140 656 232">
+    <rect x="48" y="140" width="298" height="232" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <rect x="64" y="156" width="266" height="38" rx="8" fill="#0F3D4C" />
+    <use data-icon="tabler-outline/home-2" x="74" y="164" width="22" height="22" stroke="#FFFFFF" />
+    <text x="104" y="182" font-size="18" font-weight="bold" fill="#FFFFFF">L1 欢迎页（CUSTOM 键）</text>
+    <text x="68" y="224" font-size="18" fill="#16202A">
+      <tspan x="68" dy="0">• 出厂信息：型号/编号/服务联系</tspan>
+      <tspan x="68" dy="30">• 备份恢复：用户口令（可配置）</tspan>
+      <tspan x="68" dy="30">• 配件寿命：次数预警（可配置）</tspan>
+      <tspan x="68" dy="30">• 加工统计：钥匙3档（可配置）</tspan>
+      <tspan x="68" dy="30" fill="#00879E" font-weight="bold">• ▷ 扩展菜单：进入机床配置</tspan>
+    </text>
+
+    <line x1="350" y1="256" x2="384" y2="256" stroke="#00879E" stroke-width="2.5" marker-end="url(#arrowTeal)" />
+
+    <rect x="392" y="140" width="312" height="232" rx="10" fill="#FFFFFF" stroke="#00879E" stroke-width="2" />
+    <rect x="408" y="156" width="280" height="38" rx="8" fill="#00879E" />
+    <use data-icon="tabler-outline/device-desktop-analytics" x="418" y="164" width="22" height="22" stroke="#FFFFFF" />
+    <text x="448" y="182" font-size="18" font-weight="bold" fill="#FFFFFF">L2 用户界面（底部软键）</text>
+    <text x="412" y="224" font-size="18" fill="#16202A">
+      <tspan x="412" dy="0">• 磨削参数：工件/补偿/扩展功能</tspan>
+      <tspan x="412" dy="30">• 工艺参数：粗/半精/精/终磨表</tspan>
+      <tspan x="412" dy="30">• 修整参数：修整/齿形/滚轮参数</tspan>
+      <tspan x="412" dy="30">• 自动对刀：对刀测量与位置参数</tspan>
+      <tspan x="412" dy="30" fill="#52606D">• 返回：一键返回 L1 欢迎页</tspan>
+    </text>
+  </g>
+
+  <g id="p02-priority" data-pptx-bounds="48 388 656 178">
+    <rect x="48" y="388" width="656" height="178" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1" />
+    <use data-icon="tabler-outline/list-check" x="66" y="402" width="24" height="24" stroke="#0F3D4C" />
+    <text x="98" y="421" font-size="22" font-weight="bold" fill="#0F3D4C">按「循环启动」后的面板功能键执行优先级</text>
+
+    <rect x="66" y="440" width="144" height="38" rx="8" fill="#0F3D4C" />
+    <text x="138" y="465" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">1 空运行使能</text>
+
+    <rect x="224" y="440" width="144" height="38" rx="8" fill="#0F3D4C" />
+    <text x="296" y="465" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">2 自磨夹具</text>
+
+    <rect x="382" y="440" width="144" height="38" rx="8" fill="#00879E" />
+    <text x="454" y="465" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">3 修整</text>
+
+    <rect x="540" y="440" width="144" height="38" rx="8" fill="#00879E" />
+    <text x="612" y="465" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">4 自动对刀</text>
+
+    <rect x="66" y="488" width="160" height="38" rx="8" fill="#F2F5F8" stroke="#00879E" stroke-width="1" />
+    <text x="146" y="513" text-anchor="middle" font-size="16" font-weight="bold" fill="#0F3D4C">5 手动对刀</text>
+
+    <rect x="242" y="488" width="160" height="38" rx="8" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <text x="322" y="513" text-anchor="middle" font-size="16" fill="#16202A">6 C轴旋转(仅旋转)</text>
+
+    <rect x="418" y="488" width="266" height="38" rx="8" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <text x="551" y="513" text-anchor="middle" font-size="16" font-weight="bold" fill="#0F3D4C">7 全灭按「循环启动」→ 磨削</text>
+
+    <text x="68" y="552" font-size="16" font-weight="bold" fill="#D97706">注：修整/对刀/磨削过程中按「退刀」键可中止当前动作并安全退出工件。</text>
+  </g>
+
+  <g id="p02-help" data-pptx-bounds="48 582 656 76">
+    <rect x="48" y="582" width="656" height="76" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <use data-icon="tabler-outline/help-circle" x="66" y="604" width="32" height="32" stroke="#00879E" />
+    <text x="110" y="616" font-size="18" fill="#16202A">
+      <tspan x="110" dy="0" font-weight="bold" fill="#0F3D4C">HELP 键即时参数帮助</tspan>
+      <tspan x="110" dy="26">任意页面选中参数按 HELP，下半屏直接显示说明与修改权限</tspan>
+    </text>
+  </g>
+
+  <g id="p02-screen" data-pptx-bounds="724 140 508 518">
+    <rect x="724" y="140" width="508" height="518" rx="12" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <text x="744" y="172" font-size="18" font-weight="bold" fill="#0F3D4C">用户界面实机视图与底部水平导航</text>
+    <image href="../images/image_002_13.png" x="744" y="188" width="468" height="351" preserveAspectRatio="xMidYMid meet" />
+    <text x="744" y="576" font-size="18" fill="#16202A">
+      <tspan x="744" dy="0">• 底部水平软键：磨削/工艺/修整/对刀一键直达</tspan>
+      <tspan x="744" dy="28">• 右侧垂直软键：随配置动态展开专项扩展与设置页</tspan>
+    </text>
+  </g>
+
+  <g id="p02-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" fill="#52606D" font-size="15">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">02 / 10</text>
+  </g>
+</svg>

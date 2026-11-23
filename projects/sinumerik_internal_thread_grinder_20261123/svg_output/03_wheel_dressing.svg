@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" data-pptx-page-role="content" font-family="Microsoft YaHei, Arial, sans-serif" font-size="24">
+  <rect id="bg" data-pptx-role="background" x="0" y="0" width="1280" height="720" fill="#FFFFFF" />
+
+  <g id="p03-header" data-pptx-bounds="48 36 1184 86">
+    <text x="48" y="58" font-size="18" font-weight="bold" fill="#00879E">02 · 加工准备：砂轮修整</text>
+    <text x="48" y="106" font-family="SimHei, Arial, sans-serif" font-size="40" font-weight="bold" fill="#0F3D4C">四大修整触发机制与两类修整器，覆盖砂轮全周期</text>
+    <line x1="48" y1="120" x2="1232" y2="120" stroke="#D9E2EC" stroke-width="1.5" />
+  </g>
+
+  <g id="p03-modes" data-pptx-bounds="48 140 656 232">
+    <rect x="48" y="140" width="320" height="108" rx="10" fill="#F2F5F8" stroke="#00879E" stroke-width="1.5" />
+    <text x="66" y="172" font-size="20" font-weight="bold" fill="#0F3D4C">1. 新砂轮修整</text>
+    <text x="66" y="200" font-size="16" fill="#16202A">
+      <tspan x="66" dy="0">换轮后单次执行，外圆逐层修出齿形</tspan>
+      <tspan x="66" dy="25" fill="#00879E" font-weight="bold">自动算次数：(新直径−最大直径)/2</tspan>
+    </text>
+
+    <rect x="384" y="140" width="320" height="108" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <text x="402" y="172" font-size="20" font-weight="bold" fill="#0F3D4C">2. 旧砂轮修整</text>
+    <text x="402" y="200" font-size="16" fill="#16202A">
+      <tspan x="402" dy="0">需恢复砂轮齿形时单独点亮修整键</tspan>
+      <tspan x="402" dy="25">按修整界面粗修 + 精修次数执行</tspan>
+    </text>
+
+    <rect x="48" y="264" width="320" height="108" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <text x="66" y="296" font-size="20" font-weight="bold" fill="#0F3D4C">3. 磨削中修整</text>
+    <text x="66" y="324" font-size="16" fill="#16202A">
+      <tspan x="66" dy="0">按工艺表“磨几次修整”自动触发</tspan>
+      <tspan x="66" dy="25">仅执行精修参数，工序结束计数清零</tspan>
+    </text>
+
+    <rect x="384" y="264" width="320" height="108" rx="10" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <text x="402" y="296" font-size="20" font-weight="bold" fill="#0F3D4C">4. 按件数修整</text>
+    <text x="402" y="324" font-size="16" fill="#16202A">
+      <tspan x="402" dy="0">设定大/小砂轮间隔加工件数</tspan>
+      <tspan x="402" dy="25">达设定件数后，下件开始前自动精修</tspan>
+    </text>
+  </g>
+
+  <g id="p03-dressers" data-pptx-bounds="48 388 656 128">
+    <rect x="48" y="388" width="320" height="128" rx="10" fill="#FFFFFF" stroke="#0F3D4C" stroke-width="1.5" />
+    <use data-icon="tabler-outline/arrows-exchange" x="64" y="402" width="24" height="24" stroke="#00879E" />
+    <text x="96" y="421" font-size="20" font-weight="bold" fill="#0F3D4C">X-W 插补修整</text>
+    <text x="66" y="452" font-size="16" fill="#16202A">
+      <tspan x="66" dy="0">• 碟形单/方/双滚轮两轴联动修齿形</tspan>
+      <tspan x="66" dy="26">• 兼容三角/梯形/双圆弧/行星/平面</tspan>
+    </text>
+
+    <rect x="384" y="388" width="320" height="128" rx="10" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="1.5" />
+    <use data-icon="tabler-outline/tool" x="400" y="402" width="24" height="24" stroke="#0F3D4C" />
+    <text x="432" y="421" font-size="20" font-weight="bold" fill="#0F3D4C">成型X 成型修整</text>
+    <text x="402" y="452" font-size="16" fill="#16202A">
+      <tspan x="402" dy="0">• 成型滚压轮 X 轴直线复制齿形</tspan>
+      <tspan x="402" dy="26">• 齿形由滚轮决定，按齿高判定完成</tspan>
+    </text>
+  </g>
+
+  <g id="p03-calibration" data-pptx-bounds="48 532 656 126">
+    <rect x="48" y="532" width="656" height="126" rx="10" fill="#0F3D4C" />
+    <use data-icon="tabler-outline/shield-lock" x="66" y="548" width="22" height="22" stroke="#99F6E4" />
+    <text x="96" y="566" font-size="18" font-weight="bold" fill="#99F6E4">位置标定公式与防误改保护（参数旁设锁定开关，默认闭合）</text>
+    <text x="66" y="602" font-size="18" font-weight="bold" fill="#FFFFFF">修整中心距 = |X1 + D1/2 + D2/2|      修整中心 = (Z1 + Z2) / 2</text>
+    <text x="66" y="636" font-size="16" fill="#E2E8F0">每次修整自动更新砂轮直径与磨削位置（无需重对刀）；小于最小直径报警。</text>
+  </g>
+
+  <g id="p03-screen" data-pptx-bounds="724 140 508 518">
+    <rect x="724" y="140" width="508" height="518" rx="12" fill="#F2F5F8" stroke="#D9E2EC" stroke-width="1" />
+    <text x="744" y="172" font-size="18" font-weight="bold" fill="#0F3D4C">修整主界面实机视图（X-W / 成型X）</text>
+    <image href="../images/image_001_9.png" x="744" y="188" width="468" height="351" preserveAspectRatio="xMidYMid meet" />
+    <text x="744" y="576" font-size="18" fill="#16202A">
+      <tspan x="744" dy="0">• 红框区设置单独修整粗修/精修次数与速度</tspan>
+      <tspan x="744" dy="28">• 新砂轮修第一刀后自动转旧砂轮，断电可续修</tspan>
+    </text>
+  </g>
+
+  <g id="p03-footer" data-pptx-role="footer" data-pptx-bounds="48 676 1184 28" fill="#52606D" font-size="15">
+    <text x="48" y="694">TEST 数控内螺纹磨床 HMI 3.29.0</text>
+    <text x="1232" y="694" text-anchor="end">03 / 10</text>
+  </g>
+</svg>
